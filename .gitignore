@@ -2,4 +2,4 @@
 _env/
 
 # temporary results
-_tmpResult/
+data/tmp/
