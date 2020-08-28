@@ -16,7 +16,7 @@ preparationTime = 1  # [s]
 # window_size = 60  # Number of EMG Samples in one CNN input
 ch_n = 2
 gesture_name = ['Noise', 'Fist', 'Hand', 'Index Finger', 'Middle Finger', 'Little Finger']
-data_iter = 1
+data_iter = 5
 
 now = index_time = time.time()
 
@@ -68,12 +68,18 @@ for num in range(data_iter):
 
 
 ### Saving Data
-timestr = time.strftime("%Y%m%d_%H%M%S")
-path = os.getcwd() + "\\data\\tmp\\" + timestr + ".txt"
-print(path)
+path = os.getcwd() + "\\data\\tmp\\"
+file_name = time.strftime("%Y%m%d_%H%M%S") + ".txt"
+print(path+file_name)
+with open(path + file_name, 'w') as f:
+    for data in result_list:
+        s = ", ".join(map(str, data))
+        f.write("%s\n" % s)
+f.close()
 # fmt = '%f, %f, %f, %d'
-fmt = "%s"
-np.savetxt(path, result_list, fmt=fmt, delimiter=',')
+# fmt = "%s"
+# np.savetxt(path, result_list, fmt=fmt, delimiter=',')
+
 
 
 ### Graph Plotting
