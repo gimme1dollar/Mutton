@@ -2,4 +2,6 @@
 _env/
 
 # temporary results
-data/tmp/
+/data/tmp/
+/testbench.py
+/data/model_old/
