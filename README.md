@@ -11,6 +11,15 @@ for developing Watchband-shaped IoT device input system
 ```
 
 ## Result
+
+![1](https://user-images.githubusercontent.com/48921426/98647788-b7b3e580-2378-11eb-8fef-4a6cca076aa6.png)
+![2](https://user-images.githubusercontent.com/48921426/98647798-bbe00300-2378-11eb-8c37-1e9874cdf2e5.png)
+![3](https://user-images.githubusercontent.com/48921426/98647803-be425d00-2378-11eb-854a-50dfd3b60c58.png)
+![4](https://user-images.githubusercontent.com/48921426/98647813-c0a4b700-2378-11eb-9702-893219ca254b.png)
+
+
+
+
 * Offline Classification Training & Test    
 :: Classifying 4 gestures (exploting index/middle/ring finger buttons + 1 noise) with 2-channel   
 :: Validation Set Accuracy : about 99.6%   
