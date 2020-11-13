@@ -28,5 +28,7 @@ EMG Based Virtual Keyboard for developing Watchband-shaped IoT device input syst
 
 
 ## Publication
-* AAA  
-(AAA)
+* 2018 학부생 연구프로그램(UGRP) 수상작 (최우수상)  
+(https://www.youtube.com/watch?v=WyyjaKbNtxU)  
+* Feasibility Study on Pin Electrode for sEMG_Interface.pdf  
+https://drive.google.com/file/d/1wE2IgJxHEIAFnnFYu4O8L4EcwqfiJtKd/view?usp=sharing  
